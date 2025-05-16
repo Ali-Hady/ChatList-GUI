@@ -238,10 +238,16 @@ style: &quot;bold&quot;;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>190</y>
+      <y>200</y>
       <width>491</width>
-      <height>391</height>
+      <height>1090</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarPolicy::ScrollBarAlwaysOff</enum>
@@ -261,8 +267,14 @@ style: &quot;bold&quot;;</string>
        <x>0</x>
        <y>0</y>
        <width>489</width>
-       <height>389</height>
+       <height>1088</height>
       </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
      </property>
     </widget>
    </widget>

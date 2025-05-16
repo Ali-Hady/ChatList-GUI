@@ -28,7 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         utilities.h
         utilities.cpp
         chatcard.h chatcard.cpp chatcard.ui
-        chatcardcontainer.h chatcardcontainer.cpp chatcardcontainer.ui
+
 
 
     )

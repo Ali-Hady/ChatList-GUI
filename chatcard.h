@@ -12,7 +12,11 @@ class chatcard : public QWidget
     Q_OBJECT
 
 public:
-    explicit chatcard(QWidget *parent = nullptr);
+    explicit chatcard(QWidget *parent = nullptr, QString=":/images/random.jpg");
+    void setProfilePic(QString);
+    void setTime(QString);
+    void setName(QString);
+    void setMessage(QString);
     ~chatcard();
 
 private:

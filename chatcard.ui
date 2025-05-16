@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>500</width>
+    <width>491</width>
     <height>100</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>500</width>
+    <width>491</width>
     <height>100</height>
    </size>
   </property>
@@ -22,8 +22,8 @@
   <widget class="QLabel" name="ProfilePic">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>10</y>
+     <x>20</x>
+     <y>20</y>
      <width>60</width>
      <height>60</height>
     </rect>
@@ -44,8 +44,8 @@
   <widget class="QLabel" name="time">
    <property name="geometry">
     <rect>
-     <x>262</x>
-     <y>20</y>
+     <x>310</x>
+     <y>30</y>
      <width>71</width>
      <height>20</height>
     </rect>
@@ -54,11 +54,11 @@
     <string>08:39</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="message">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>40</y>
+     <x>100</x>
+     <y>50</y>
      <width>171</width>
      <height>31</height>
     </rect>
@@ -67,11 +67,11 @@
     <string>This is some long message</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="name">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>20</y>
+     <x>100</x>
+     <y>30</y>
      <width>121</width>
      <height>20</height>
     </rect>

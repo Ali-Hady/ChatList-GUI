@@ -3,7 +3,7 @@
 #include "./utilities.h"
 #include <QLayout>
 
-chatcard::chatcard(QWidget *parent)
+chatcard::chatcard(QWidget *parent, QString Profile)
     : QWidget(parent)
     , ui(new Ui::chatcard)
 {
@@ -13,8 +13,22 @@ chatcard::chatcard(QWidget *parent)
         lyt->setContentsMargins(10,10,10,10);
         lyt->setSpacing(2);
     }
-    setRoundImage(ui->ProfilePic, ":/images/random.jpg");
+    setRoundImage(ui->ProfilePic, Profile);
 }
+
+void chatcard::setProfilePic(QString Pic) {
+    setRoundImage(ui->ProfilePic, Pic);
+}
+void chatcard::setTime(QString t) {
+    ui->time->setText(t);
+}
+void chatcard::setName(QString n) {
+    ui->name->setText(n);
+}
+void chatcard::setMessage(QString m) {
+    ui->message->setText(m);
+}
+
 
 chatcard::~chatcard()
 {
